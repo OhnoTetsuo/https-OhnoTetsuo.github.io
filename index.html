@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ohno Tetsuo Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="index">
+  <header>
+  <nav>
+    <ul class="global-nav">
+      <li><a href="index.html#portfolio">Portfolio</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
+  <div id="wrap">
+    <div class="content">
+      <h1>Hi! I'm tetsuo,<br>a web designer<br> based in Japan.
+      </h1>
+      <p>このWebサイトは日本で活動するwebデザイナー兼エンジニア大野哲央のポートフォリオサイトです。<br>これまでに製作した作品や、デザイナーとして携わったプロジェクトなどを掲載しています。どうぞごゆっくりご覧ください。
+      </p>
+      <p class="btn"><a href="portfolio.html">My Portfolio</a></p>
+    </div>
+  </div>
+  <section id="about" class="clearfix">
+    <div class="main">
+      <h2>About</h2>
+        <div class="about-txt">
+          <p>
+            <span>大野 哲央</span><br>明治大学在学中。デザイン、コーディング、webサイトを制作しています。
+          </p>
+        </div>
+        <img src="images/IMG_2498.JPG" alt="" class="about-image">
+    </div> 
+  </section>
+  <section id="portfolio">
+    <div class="main">
+      <h2>Portfolio(随時UPしていきます)</h2>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="main">
+      <h2>Contact</h2>
+      <div class="form">
+        <form action="">
+          <dl>
+            <dt><span class="required">お名前</span></dt>
+            <dd><input type="text" name="name" class="name required"></dd>
+            <dt><span class="required">メールアドレス</span></dt>
+            <dd><input type="email" name="email" class="email required"></dd>
+            <dt>お電話番号</dt>
+            <dd><input type="tel" name="tel" class="tel"></dd>
+            <dt>お問い合わせ種別</dt>
+            <dd>
+              <select name="type" class="type">
+                <option value="デザイン作成">デザイン作成</option>
+                <option value="コーディングのみ">コーディングのみ</option>
+                <option value="webサイト制作">webサイト制作</option>
+                <option value="画像加工or動画編集">画像加工or動画編集</option>
+                <option value="その他お問い合わせ">その他お問い合わせ</option>
+              </select>
+            </dd>
+            <dt>ご希望のご連絡方法</dt>
+            <dd>
+              <input type="radio" name="contact" value="Eメール" >Eメール
+              <input type="radio" name="contact" value="お電話" >お電話
+            </dd>
+            <dt>メッセージ</dt>
+            <dd><textarea name="message" class="message" id="" cols="30" rows="10"></textarea></dd>
+          </dl>
+          <button type="submit" class="btn">送信</button>
+          <div class="attention">
+            <p>「<span class="required"></span>」の付いている項目は必須項目です<br>※メッセージ送信後、48時間以内に担当者よりご連絡します。</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <small>(C)2020 tetsuo-studio.</small>
+  </footer>
+</body>
+</html>
