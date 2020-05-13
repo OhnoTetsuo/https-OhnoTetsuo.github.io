@@ -110,6 +110,7 @@ footer small {
   margin-bottom: 50px;
   border: none;
   opacity: 0.8;
+  display: none;
 }
 
 #index .content {
@@ -279,4 +280,67 @@ section {
 
 .form .attention {
   margin: 20px 0 0 185px;
+}
+
+@media screen and (max-width:700px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    font-size:  15px;
+    line-height: 2;
+    color: #ffffff;
+    opacity: 0.8;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 7.2vw;
+  }
+
+  h2 {
+    font-size: 10vw;
+  }
+
+  header {
+    width: 100%;
+    margin: 0 5%;
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+  
+  .global-nav {
+    display: inline-block;
+    width: 100%;
+    display: flex;
+  }
+  
+  
+  .global-nav li {
+    font-size: 40px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  #about p {
+    font-size: 25px;
+  }
+
+  #about img {
+    margin-right: 50px;
+  }  
+
+  .about-txt {
+    margin-left: 50px;
+  }
+
+  .form .type {
+    background-color:white;
+  }
 }
