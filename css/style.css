@@ -37,7 +37,7 @@ a:hover {
 }
 
 header {
-  width: 960px;
+  width: 70%;
   height: 100px;
   margin: 0 auto;
 }
@@ -77,11 +77,6 @@ header {
   padding: 35px 0;
 }
 
-.cotent {
-  width: 960px;
-  margin: 0 auto;
-}
-
 footer {
   text-align: center;
   color: #ffffff;
@@ -93,7 +88,7 @@ footer small {
 }
 
 .content {
-  width: 960px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -295,6 +290,10 @@ section {
     display: inline-block;
     text-align: center;
   }
+
+  .content h1 {
+
+  }
   
   p,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
@@ -343,4 +342,9 @@ section {
   .form .type {
     background-color:white;
   }
+
+  .btn a{
+    margin: 0 auto;
+  }
+
 }
